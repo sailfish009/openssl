@@ -156,7 +156,7 @@ OpenSSL for production use.
 
 ### Unix / Linux / macOS ###
 
-    $ ./config
+    $ ./config --prefix=/usr --openssldir=/usr/lib/ssl --libdir=lib/x86_64-linux-gnu no-idea no-mdc2 no-rc5 no-zlib no-ssl3 enable-unit-test no-ssl3-method enable-rfc3779 enable-cms
     $ make
     $ make test
 
